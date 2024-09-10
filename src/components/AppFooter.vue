@@ -250,8 +250,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use 'assets/scss/partials/mixins.scss' as *;
-@use 'assets/scss/partials/variables.scss' as *;
+@use '../assets/scss/partials/mixins.scss' as *;
+@use '../assets/scss/partials/variables.scss' as *;
 
 footer {
     .footer-info {
@@ -269,7 +269,7 @@ footer {
         color: white;
         text-transform: uppercase;
         -webkit-transform: scale(.8, 1);
-        margin: 0 -15px;
+        margin: 0 -17px;
     }
 
     ul {
@@ -296,7 +296,6 @@ footer {
     .dc-logo {
         background-image: url('../public/img/dc-logo-bg.png');
         width: 600px;
-        z-index: 999;
         margin-top: -100px;
         background-repeat: no-repeat;
     }
@@ -336,7 +335,7 @@ footer {
     }
 
     .follow-us {
-        color: #0282F9;
+        color: $blueDC;
         text-transform: uppercase;
         font-size: 22px;
         font-weight: 700;

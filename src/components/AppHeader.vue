@@ -76,7 +76,7 @@ export default {
         <div class="blackbar">
         </div>
         <div class="container">
-            <img src="../public/img/dc-logo.png" alt="DC Comics">
+            <img src="../../public/img/dc-logo.png" alt="DC Comics">
             <ul class="navbar">
                 <li v-for="(link, index) in menuLinks" :key="index">
                     <a :href="link.url" :class="{
@@ -92,8 +92,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use 'assets/scss/partials/mixins.scss' as *;
-@use 'assets/scss/partials/variables.scss' as *;
+@use '../assets/scss/partials/mixins.scss' as *;
+@use '../assets/scss/partials/variables.scss' as *;
 
 header {
     height: 125px;
