@@ -296,6 +296,7 @@ footer {
         width: 600px;
         margin-top: -100px;
         background-repeat: no-repeat;
+
     }
 
     .footer-social {

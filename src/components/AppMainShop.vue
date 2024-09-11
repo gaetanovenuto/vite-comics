@@ -78,7 +78,8 @@ main {
         .container {
             height: 150px;
             width: 100%;
-            @include flex-align-center;
+            display: flex;
+            align-items: center;
             justify-content: center;
         }
 
@@ -89,6 +90,7 @@ main {
 
             li {
                 padding: 0 25px;
+                z-index: 999;
 
                 &:last-child {
                     img {

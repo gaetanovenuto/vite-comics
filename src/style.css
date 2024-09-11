@@ -5,10 +5,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-img {
-  max-height: 100px;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
