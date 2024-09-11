@@ -99,8 +99,7 @@ header {
     height: 125px;
 
     .container {
-        display: flex;
-        align-items: center;
+        @include flex-align-center;
         justify-content: space-between;
     }
 
@@ -109,8 +108,8 @@ header {
     }
 
     ul {
-        display: flex;
-        list-style: none;
+        @include flex-align-center;
+        @include ul-format;
 
         li {
             a {

@@ -44,8 +44,7 @@ main {
         .container {
             height: 125px;
             width: 100%;
-            display: flex;
-            align-items: center;
+            @include flex-align-center;
 
             .main-content {
                 color: white;

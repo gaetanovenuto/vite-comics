@@ -273,8 +273,7 @@ footer {
     }
 
     ul {
-        list-style: none;
-        padding: 10px 0;
+      @include ul-format;
     }
 
     li {
@@ -283,8 +282,7 @@ footer {
             color: rgba(255, 255, 255, 0.596);
             font-size: 12px;
             font-weight: 100;
-            display: flex;
-            align-items: center;
+            @include flex-align-center;
             padding: 2px 0;
         }
     }
@@ -306,9 +304,8 @@ footer {
         height: 105px;
 
         .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            @include flex-align-center;
+            justify-content: space-between;            
             height: 100%;
         }
 

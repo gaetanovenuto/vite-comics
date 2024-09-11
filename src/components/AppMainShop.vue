@@ -78,16 +78,14 @@ main {
         .container {
             height: 150px;
             width: 100%;
-            display: flex;
-            align-items: center;
+            @include flex-align-center;
             justify-content: center;
         }
 
         .shop-navbar {
-            display: flex;
+            @include ul-format;
+            @include flex-align-center;
             justify-content: space-between;
-            align-items: center;
-            list-style: none;
 
             li {
                 padding: 0 25px;
@@ -103,8 +101,7 @@ main {
                     text-transform: uppercase;
                     color: white;
                     font-size: 14px;
-                    display: flex;
-                    align-items: center;
+                    @include flex-align-center;
                 }
             }
 

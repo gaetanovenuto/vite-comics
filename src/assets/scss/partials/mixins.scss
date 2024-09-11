@@ -1,0 +1,9 @@
+@mixin ul-format {
+    list-style: none;
+    padding: 0;
+}
+
+@mixin flex-align-center {
+    display: flex;
+    align-items: center;
+}
