@@ -175,6 +175,7 @@ main {
                 display: flex;
                 flex-wrap: wrap;
                 width: 100%;
+                margin-top: 500px;
 
                 .load-more {
                     color: white;
